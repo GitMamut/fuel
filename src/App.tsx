@@ -86,6 +86,7 @@ function App() {
         </div>
         <p>{ocr}</p>
         <canvas ref={capturedFrame}/>
+        <p>source code: <a href="https://github.com/GitMamut/ocr">https://github.com/GitMamut/ocr</a></p>
       </div>
   );
 }
