@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import { createWorker } from 'tesseract.js';
-import './App.css';
 
 function App() {
   const worker = createWorker({
